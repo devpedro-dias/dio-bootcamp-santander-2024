@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d3fe90-c37d-4ba0-bdd7-b10e01f4c737" name="Changes" comment="challenge poo v2 DIO">
-      <change beforePath="$PROJECT_DIR$/../dio-lab-open-source" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-lab-open-source" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/poo-desafio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/src/Equipamento/Dispositivo/AparelhoEletronico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/src/Equipamento/Musica/ReproduzirMusica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/src/Equipamento/Navegador/NavegadorInternet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/src/EquipamentoIphone/EquipamentoIphone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo-desafio/src/Estabelecimento/Fabrica.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
