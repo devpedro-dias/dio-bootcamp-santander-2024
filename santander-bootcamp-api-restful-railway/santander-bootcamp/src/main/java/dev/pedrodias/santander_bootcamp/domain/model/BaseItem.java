@@ -4,19 +4,24 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+@Data
 @MappedSuperclass
 public abstract class BaseItem {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Getter @Setter private Long id;
+    private Long id;
 
 
-    @Getter @Setter private String icon;
+    private String icon;
 
 
-    @Getter @Setter private String description;
+    private String description;
+
+
+
 }
