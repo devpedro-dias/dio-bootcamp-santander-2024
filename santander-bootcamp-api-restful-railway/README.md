@@ -20,16 +20,16 @@ classDiagram
   class User {
     -String name
     -Account account
-    -Feature[] features
+    -List~Feature~ features
     -Card card
-    -News[] news
+    -List~News~ news
   }
 
   class Account {
     -String number
     -String agency
-    -Number balance
-    -Number limit
+    -BigDecimal balance
+    -BigDecimal limit
   }
 
   class Feature {
@@ -39,7 +39,7 @@ classDiagram
 
   class Card {
     -String number
-    -Number limit
+    -BigDecimal limit
   }
 
   class News {
