@@ -3,9 +3,11 @@ package dev.pedrodias.santander_bootcamp.service.impl;
 import dev.pedrodias.santander_bootcamp.domain.model.User;
 import dev.pedrodias.santander_bootcamp.repository.UserRepository;
 import dev.pedrodias.santander_bootcamp.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.NoSuchElementException;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
@@ -15,7 +17,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User finbById(Long id) {
+    public User findById(Long id) {
         return userRepository.findById(id).orElseThrow(NoSuchElementException::new);
     }
 

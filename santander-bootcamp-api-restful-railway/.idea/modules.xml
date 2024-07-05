@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/santander-bootcamp-api-restful-railway.iml" filepath="$PROJECT_DIR$/.idea/santander-bootcamp-api-restful-railway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/santander-bootcamp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/santander-bootcamp.main.iml" />
     </modules>
   </component>
 </project>
